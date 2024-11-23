@@ -48,7 +48,7 @@ root.geometry('1200x400')
 #button = tk.Button(root, text="Click Me", command = root.destroy)
 #button.pack(padx=20, pady=20)
 
-columns = ('host_name', 'ip_add', 'software_ver', 'hardware')
+columns = ('host_name', 'ip_add', 'software_ver', 'hardware', 'srl')
 
 tree = ttk.Treeview(root, columns=columns, show='headings')
 
